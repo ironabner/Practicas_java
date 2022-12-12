@@ -4,16 +4,15 @@ package Calculadora2;
 public class Pruebas {
 
 	public static void main(String[] args) {
-		Calculator calc = new Calculator();
+		Calculator calculadora = new Calculator();
 
-		calc.performOperation(10.5);
-		calc.performOperation("+");
-		calc.performOperation(5.2);
-		calc.performOperation("*");
-		calc.performOperation(10);
-		calc.performOperation("=");
-		
-		calc.getResults();
+		calculadora.performOperation(10.5);
+		calculadora.performOperation("+");
+		calculadora.performOperation(5.2);
+		calculadora.performOperation("*");
+		calculadora.performOperation(10);
+		calculadora.performOperation("=");		
+		calculadora.getResults();
 
 	}
 
